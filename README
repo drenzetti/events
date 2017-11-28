@@ -1,0 +1,12 @@
+Before you start, it's recommended to install the following modules:
+
+pip3 install flask
+pip3 install flask_sqlalchemy
+pip3 install flask_marshmallow
+pip3 install marshmallow-sqlalchemy
+
+In a python3 interpreter import and create db:
+
+from app import db
+db.create_all()
+
